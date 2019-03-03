@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.1 (Python 3.6.2 on win32)" generated="20190302 18:09:12.413" rpa="false">
+<suite id="s1" name="Demo" source="C:\Users\btm-fac\PycharmProjects\Automation\demo.robot">
+<test id="s1-t1" name="login">
+<kw name="open browser">
+<arguments>
+<arg>http://facebook.com</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20190302 18:09:12.468" level="FAIL">No keyword with name 'open browser' found.</msg>
+<status status="FAIL" starttime="20190302 18:09:12.468" endtime="20190302 18:09:12.468"></status>
+</kw>
+<status status="FAIL" starttime="20190302 18:09:12.464" endtime="20190302 18:09:12.469" critical="yes">No keyword with name 'open browser' found.</status>
+</test>
+<status status="FAIL" starttime="20190302 18:09:12.417" endtime="20190302 18:09:12.470"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1">Critical Tests</stat>
+<stat pass="0" fail="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" id="s1" name="Demo">Demo</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
